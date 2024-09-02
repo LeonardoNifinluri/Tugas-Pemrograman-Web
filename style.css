@@ -50,3 +50,8 @@ body{
   width:30px;
   height: 30px;
 }
+@media only screen and (max-width: 360px) {
+  body {
+    background-color: black;
+  }
+}
