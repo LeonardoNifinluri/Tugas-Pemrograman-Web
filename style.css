@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Bloody';
+  src: url(fonts/Creepster-Regular.ttf);
+}
+@font-face {
+  font-family: 'Outfit';
+  src: url(fonts/Outfit-VariableFont_wght.ttf);
+}
+.center_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.red_text_body{
+  text-align: center;
+  color: red;
+  font-family: 'Bloody';
+  font-size: large;
+}
+.center_text_header{
+  text-align: center;
+  color: red;
+  font-family: 'Bloody';
+}
+.white_text_body{
+  text-align: center;
+  color: white;
+  font-family: 'Bloody';
+  font-size: large;
+}
+body{
+  background-color: black;
+}
+.custom_button{
+  background-color: black;
+  border-radius: 30%;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.icon_div{
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100px; 
+  gap: 5px
+}
+.icon_dimension{
+  width:30px;
+  height: 30px;
+}
